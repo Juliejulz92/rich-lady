@@ -1,0 +1,84 @@
+* { 
+    box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 0;
+ }
+ .main {
+    background-image: url(./image/womensuccess.jpg);
+    background-size: cover;
+    background-position: center;  
+    min-height: 100vh;
+ }
+
+ a {
+     color: white;
+     text-decoration: none;
+ }
+
+ .container {
+     margin: 0 auto;
+     padding: 1rem;
+     width: 1000px;
+ }
+
+ nav {
+     padding: 0.5rem 0;
+ }
+
+ .pre-nav {
+     display: flex;
+     justify-content: space-between;
+     font-size: 1.7rem;
+     align-items: center;
+ }
+
+ .logo {
+     color: #041656;
+     font-weight: bold;
+     font-size: 2.5rem; 
+ }
+
+ nav ul {
+     display: flex;
+     list-style-type: none;
+     padding: 0;
+ }
+
+ nav li {
+     flex: 1 auto;
+ }
+
+ nav li a {
+     background-color: #000000;
+     padding: 1rem 2rem;
+     text-align: center;
+     display: block;
+ }
+
+ .content {
+    color: #8C0327
+ }
+ .icon-bar {
+    width: 90px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+  }
+  
+  .icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #04AA6D; /* Add an active/current color */
+  }
